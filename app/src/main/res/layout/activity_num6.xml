@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/num6"
+    android:layout_width="match_parent"
+
+
+    android:layout_height="match_parent"
+    tools:context="calculateresult.abumusab.com.myapplication.num6">
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="32dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
+
+    <EditText
+        android:id="@+id/p6edit"
+        android:layout_width="155dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/rounded_button"
+        android:ems="10"
+        android:hint="أكتب اسم اللاعب"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/player6num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="0"
+        android:textColor="@color/blue"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="@+id/p6edit"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/p6edit"
+        app:layout_constraintTop_toBottomOf="@+id/p6edit" />
+
+    <Button
+        android:id="@+id/p6addone"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="487dp"
+        android:background="@drawable/rounded_button"
+        android:text="+1"
+        android:textColor="@color/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/p6addfive"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="+5"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/p6addone"
+        app:layout_constraintStart_toEndOf="@+id/p6addone"
+        app:layout_constraintTop_toTopOf="@+id/p6addone"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/p6addten"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="+10"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/p6addfive"
+        app:layout_constraintStart_toEndOf="@+id/p6addfive"
+        app:layout_constraintTop_toTopOf="@+id/p6addfive"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/p6subone"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-1"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="@+id/p6addone"
+        app:layout_constraintStart_toStartOf="@+id/p6addone"
+        app:layout_constraintTop_toBottomOf="@+id/p6addone" />
+
+    <Button
+        android:id="@+id/p6subfive"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-5"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="@+id/p6addfive"
+        app:layout_constraintStart_toStartOf="@+id/p6addfive"
+        app:layout_constraintTop_toBottomOf="@+id/p6addfive" />
+
+    <Button
+        android:id="@+id/p6subten"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-10"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="@+id/p6addten"
+        app:layout_constraintStart_toStartOf="@+id/p6addten"
+        app:layout_constraintTop_toBottomOf="@+id/p6addten" />
+
+    <TextView
+        android:id="@+id/player4num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="0"
+        android:textColor="@color/blue"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="@+id/p4edit"
+        app:layout_constraintStart_toStartOf="@+id/p4edit"
+        app:layout_constraintTop_toBottomOf="@+id/p4edit" />
+
+    <Button
+        android:id="@+id/p2addten"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="+10"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/p2addfive"
+        app:layout_constraintStart_toEndOf="@+id/p2addfive"
+        app:layout_constraintTop_toTopOf="@+id/p2addfive"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/p1addone"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="+1"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/p1addfive"
+        app:layout_constraintEnd_toStartOf="@+id/p1addfive"
+        app:layout_constraintTop_toTopOf="@+id/p1addfive"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/p2edit"
+        android:layout_width="155dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:ems="10"
+        android:hint="أكتب اسم اللاعب"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/p2addone"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="105dp"
+        android:background="@drawable/rounded_button"
+        android:text="+1"
+        android:textColor="@color/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/p3addone"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="+1"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/p3addfive"
+        app:layout_constraintEnd_toStartOf="@+id/p3addfive"
+        app:layout_constraintTop_toTopOf="@+id/p3addfive"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/player1num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginStart="8dp"
+        android:text="0"
+        android:textColor="@color/blue"
+        android:textSize="50sp"
+        app:layout_constraintHorizontal_bias="0.504"
+        ads:layout_constraintEnd_toEndOf="@+id/num3name2"
+        ads:layout_constraintStart_toStartOf="@+id/num3name2"
+        ads:layout_constraintTop_toBottomOf="@+id/num3name2" />
+
+    <Button
+        android:id="@+id/p1addten"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="105dp"
+        android:background="@drawable/rounded_button"
+        android:text="+10"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/player3num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="0"
+        android:textColor="@color/blue"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="@+id/p3edit"
+        app:layout_constraintStart_toStartOf="@+id/p3edit"
+        app:layout_constraintTop_toBottomOf="@+id/p3edit" />
+
+    <Button
+        android:id="@+id/p5subten"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-10"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="@+id/p5addten"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/p5addten"
+        app:layout_constraintTop_toBottomOf="@+id/p5addten" />
+
+    <Button
+        android:id="@+id/p3subfive"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-5"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toStartOf="@+id/p3addten"
+        app:layout_constraintStart_toEndOf="@+id/p3addone"
+        app:layout_constraintTop_toBottomOf="@+id/p3addfive" />
+
+    <Button
+        android:id="@+id/p5addone"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="+1"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/p5addfive"
+        app:layout_constraintEnd_toStartOf="@+id/p5addfive"
+        app:layout_constraintTop_toTopOf="@+id/p5addfive"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/p5addfive"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="+5"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/p5addten"
+        app:layout_constraintEnd_toStartOf="@+id/p5addten"
+        app:layout_constraintTop_toTopOf="@+id/p5addten"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/p2subfive"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-5"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toStartOf="@+id/p2addten"
+        app:layout_constraintStart_toStartOf="@+id/p2addfive"
+        app:layout_constraintTop_toBottomOf="@+id/p2addfive" />
+
+    <Button
+        android:id="@+id/p3subone"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-1"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="@+id/p3addone"
+        app:layout_constraintStart_toStartOf="@+id/p3addone"
+        app:layout_constraintTop_toBottomOf="@+id/p3addone" />
+
+    <Button
+        android:id="@+id/p2subone"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-1"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toStartOf="@+id/p2addfive"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/p2addone"
+        app:layout_constraintTop_toBottomOf="@+id/p2addone" />
+
+    <Button
+        android:id="@+id/p4subone"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-1"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toStartOf="@+id/p4addfive"
+        app:layout_constraintStart_toStartOf="@+id/p4addone"
+        app:layout_constraintTop_toBottomOf="@+id/p4addone" />
+
+    <Button
+        android:id="@+id/p3addten"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="297dp"
+        android:background="@drawable/rounded_button"
+        android:text="+10"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/p1addfive"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="+5"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/p1addten"
+        app:layout_constraintEnd_toStartOf="@+id/p1addten"
+        app:layout_constraintTop_toTopOf="@+id/p1addten"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/p5subone"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-1"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="@+id/p5addone"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/p5addone"
+        app:layout_constraintTop_toBottomOf="@+id/p5addone" />
+
+    <TextView
+        android:id="@+id/player2num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginStart="8dp"
+        android:text="0"
+        android:textColor="@color/blue"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="@+id/p2edit"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/p2edit"
+        app:layout_constraintTop_toBottomOf="@+id/p2edit" />
+
+    <Button
+        android:id="@+id/p5addten"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="487dp"
+        android:background="@drawable/rounded_button"
+        android:text="+10"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/p1subone"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-1"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toStartOf="@+id/p1addfive"
+        app:layout_constraintStart_toStartOf="@+id/p1addone"
+        app:layout_constraintTop_toBottomOf="@+id/p1addone" />
+
+    <Button
+        android:id="@+id/p4subten"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-10"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="@+id/p4addten"
+        app:layout_constraintStart_toStartOf="@+id/p4addten"
+        app:layout_constraintTop_toBottomOf="@+id/p4addten" />
+
+    <Button
+        android:id="@+id/p4addone"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="297dp"
+        android:background="@drawable/rounded_button"
+        android:text="+1"
+        android:textColor="@color/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/p64564q57urghjsfgedit"
+        android:layout_width="155dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/rounded_button"
+        android:ems="10"
+        android:hint="أكتب اسم اللاعب"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/p2addfive"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="+5"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/p2addone"
+        app:layout_constraintStart_toEndOf="@+id/p2addone"
+        app:layout_constraintTop_toTopOf="@+id/p2addone"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/p1subten"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-10"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="@+id/p1addten"
+        app:layout_constraintStart_toStartOf="@+id/p1addten"
+        app:layout_constraintTop_toBottomOf="@+id/p1addten" />
+
+    <EditText
+        android:id="@+id/p4edit"
+        android:layout_width="155dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/rounded_button"
+        android:ems="10"
+        android:hint="أكتب اسم اللاعب"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/p1subfive"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-5"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toStartOf="@+id/p1addten"
+        app:layout_constraintStart_toStartOf="@+id/p1addfive"
+        app:layout_constraintTop_toBottomOf="@+id/p1addfive" />
+
+    <Button
+        android:id="@+id/p2subten"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-10"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="@+id/p2addten"
+        app:layout_constraintStart_toStartOf="@+id/p2addten"
+        app:layout_constraintTop_toBottomOf="@+id/p2addten" />
+
+    <EditText
+        android:id="@+id/p3edit"
+        android:layout_width="155dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/rounded_button"
+        android:ems="10"
+        android:hint="أكتب اسم اللاعب"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/num3name2"
+        android:layout_width="155dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:ems="10"
+        android:hint="أكتب اسم اللاعب"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/p4subfive"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-5"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toStartOf="@+id/p4addten"
+        app:layout_constraintStart_toStartOf="@+id/p4addfive"
+        app:layout_constraintTop_toBottomOf="@+id/p4addfive" />
+
+    <Button
+        android:id="@+id/p4addten"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="+10"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/p4addfive"
+        app:layout_constraintStart_toEndOf="@+id/p4addfive"
+        app:layout_constraintTop_toTopOf="@+id/p4addfive"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/p3addfive"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="+5"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/p3addten"
+        app:layout_constraintEnd_toStartOf="@+id/p3addten"
+        app:layout_constraintTop_toTopOf="@+id/p3addten"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/p4addfive"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="+5"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/p4addone"
+        app:layout_constraintStart_toEndOf="@+id/p4addone"
+        app:layout_constraintTop_toTopOf="@+id/p4addone"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <Button
+        android:id="@+id/p3subten"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-10"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="@+id/p3addten"
+        app:layout_constraintStart_toStartOf="@+id/p3addten"
+        app:layout_constraintTop_toBottomOf="@+id/p3addten" />
+
+    <TextView
+        android:id="@+id/player5num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="0"
+        android:textColor="@color/blue"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="@+id/p64564q57urghjsfgedit"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/p64564q57urghjsfgedit"
+        app:layout_constraintTop_toBottomOf="@+id/p64564q57urghjsfgedit" />
+
+    <Button
+        android:id="@+id/p5subfive"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="-5"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="@+id/p5addfive"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/p5addfive"
+        app:layout_constraintTop_toBottomOf="@+id/p5addfive" />
+
+</android.support.constraint.ConstraintLayout>

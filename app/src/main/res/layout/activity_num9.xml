@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/num9"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context="calculateresult.abumusab.com.myapplication.num9">
+
+    <TextView
+        android:id="@+id/blue1"
+        android:layout_width="wrap_content"
+        android:layout_height="139dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="199dp"
+        android:text="قــريـــبـــا"
+        android:textColor="@color/blue"
+        android:textSize="100sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/blue3"
+        android:layout_width="wrap_content"
+        android:layout_height="139dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="201dp"
+        android:text="قــريـــبـــا"
+        android:textColor="@color/blue"
+        android:textSize="100sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/blue4"
+        android:layout_width="wrap_content"
+        android:layout_height="139dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="200dp"
+        android:text="قــريـــبـــا"
+        android:textColor="@color/blue"
+        android:textSize="100sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/blue2"
+        android:layout_width="wrap_content"
+        android:layout_height="139dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="200dp"
+        android:text="قــريـــبـــا"
+        android:textColor="@color/blue"
+        android:textSize="100sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="139dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:text="قــريـــبـــا"
+        android:textColor="@color/blue"
+        android:textSize="100sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/orining"
+        android:layout_width="wrap_content"
+        android:layout_height="139dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:text="قــريـــبـــا"
+        android:textColor="@color/oraigin"
+        android:textSize="100sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

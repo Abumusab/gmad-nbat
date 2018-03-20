@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="btColor">#856c45</color>
+    <color name="blue">#4874CE</color>
+    <color name="oraigin">#F8BA69</color>
+    <color name="test">#AFFD4E</color>
+</resources>

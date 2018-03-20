@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "402508636391",
+    "firebase_url": "https://calculateresult-d514b.firebaseio.com",
+    "project_id": "calculateresult-d514b",
+    "storage_bucket": "calculateresult-d514b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402508636391:android:94f60645bdcef684",
+        "android_client_info": {
+          "package_name": "calculateresult.abumusab.com.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402508636391-opsad6v19k7k1b1gr52fcg43j7plvq32.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "calculateresult.abumusab.com.myapplication",
+            "certificate_hash": "8ff44a2d0e91acf8c45dd621507a93b38d1eeda2"
+          }
+        },
+        {
+          "client_id": "402508636391-6ss2vvi1is3iqq014joubrbskpv8v5a6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1l0kHfdCV9pbCBBLrVdO1mAJLK90qtWw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402508636391-6ss2vvi1is3iqq014joubrbskpv8v5a6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

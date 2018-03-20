@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/num3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="calculateresult.abumusab.com.myapplication.num3">
+
+
+    <TextView
+        android:id="@+id/num2name4"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/aladd"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/blue"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintHorizontal_bias="0.05"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toTopOf="parent"
+        ads:layout_constraintVertical_bias="0.32999998" />
+
+    <TextView
+        android:id="@+id/num2name"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/aladd"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/blue"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintHorizontal_bias="0.05"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toTopOf="parent"
+        ads:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/num2name3"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/aladd"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/blue"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintHorizontal_bias="0.95"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toTopOf="parent"
+        ads:layout_constraintVertical_bias="0.014" />
+
+    <TextView
+        android:id="@+id/num2alfoz2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/aladd"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/blue"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        ads:layout_constraintEnd_toStartOf="@+id/num2name3"
+        ads:layout_constraintHorizontal_bias="0.523"
+        ads:layout_constraintStart_toEndOf="@+id/num2name"
+        ads:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/p1numktabh5"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        android:textAlignment="center"
+        ads:layout_constraintEnd_toEndOf="@+id/num2name4"
+        ads:layout_constraintStart_toStartOf="@+id/num2name4"
+        ads:layout_constraintTop_toBottomOf="@+id/num2name4" />
+
+    <Button
+        android:id="@+id/p1zaed5"
+        android:layout_width="71dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="27dp"
+        android:background="@drawable/rounded_button"
+        android:text="+"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        ads:layout_constraintEnd_toEndOf="@+id/p1numktabh5"
+        ads:layout_constraintTop_toBottomOf="@+id/p1numktabh5"
+        android:layout_marginRight="27dp" />
+
+    <Button
+        android:id="@+id/p1na4"
+        android:layout_width="71dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="27dp"
+        android:background="@drawable/rounded_button"
+        android:text="-"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        ads:layout_constraintStart_toStartOf="@+id/p1numktabh5"
+        ads:layout_constraintTop_toBottomOf="@+id/p1numktabh5"
+        android:layout_marginLeft="27dp" />
+
+    <EditText
+        android:id="@+id/p1numktabh4"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        android:textAlignment="center"
+        ads:layout_constraintEnd_toEndOf="@+id/num2name3"
+        ads:layout_constraintHorizontal_bias="0.522"
+        ads:layout_constraintStart_toStartOf="@+id/num2name3"
+        ads:layout_constraintTop_toBottomOf="@+id/num2name3" />
+
+    <Button
+        android:id="@+id/p1zaed4"
+        android:layout_width="71dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="27dp"
+        android:background="@drawable/rounded_button"
+        android:text="+"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        ads:layout_constraintEnd_toEndOf="@+id/p1numktabh4"
+        ads:layout_constraintTop_toBottomOf="@+id/p1numktabh4"
+        android:layout_marginRight="27dp" />
+
+    <Button
+        android:id="@+id/p1na3"
+        android:layout_width="71dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="27dp"
+        android:background="@drawable/rounded_button"
+        android:text="-"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        ads:layout_constraintStart_toStartOf="@+id/p1numktabh4"
+        ads:layout_constraintTop_toBottomOf="@+id/p1numktabh4"
+        android:layout_marginLeft="27dp" />
+
+    <EditText
+        android:id="@+id/p1numktabh2"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        android:textAlignment="center"
+        ads:layout_constraintEnd_toEndOf="@+id/num2name"
+        ads:layout_constraintHorizontal_bias="0.552"
+        ads:layout_constraintStart_toStartOf="@+id/num2name"
+        ads:layout_constraintTop_toBottomOf="@+id/num2name" />
+
+    <Button
+        android:id="@+id/p1zaed2"
+        android:layout_width="71dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="27dp"
+        android:background="@drawable/rounded_button"
+        android:text="+"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        ads:layout_constraintEnd_toEndOf="@+id/p1numktabh2"
+        ads:layout_constraintTop_toBottomOf="@+id/p1numktabh2"
+        android:layout_marginRight="27dp" />
+
+    <Button
+        android:id="@+id/p1na"
+        android:layout_width="71dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="27dp"
+        android:background="@drawable/rounded_button"
+        android:text="-"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        ads:layout_constraintStart_toStartOf="@+id/p1numktabh2"
+        ads:layout_constraintTop_toBottomOf="@+id/p1numktabh2"
+        android:layout_marginLeft="27dp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="32dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
+
+    <TextView
+        android:id="@+id/player2num"
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="0"
+        android:textColor="@color/blue"
+        android:textSize="50sp"
+        ads:layout_constraintEnd_toEndOf="@+id/num2name"
+        ads:layout_constraintStart_toStartOf="@+id/num2name"
+        ads:layout_constraintTop_toBottomOf="@+id/num2name" />
+
+    <TextView
+        android:id="@+id/player3num"
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textColor="@color/blue"
+        android:textSize="50sp"
+        ads:layout_constraintEnd_toEndOf="@+id/num2name4"
+        ads:layout_constraintStart_toStartOf="@+id/num2name4"
+        ads:layout_constraintTop_toBottomOf="@+id/num2name4" />
+
+</android.support.constraint.ConstraintLayout>
