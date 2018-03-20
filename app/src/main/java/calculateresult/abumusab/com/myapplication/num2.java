@@ -134,9 +134,6 @@ public class num2 extends AppCompatActivity {
                 int z = y-x;
                 p2num.setText(Integer.toString(z));
 
-
-
-
             }
         });
 
